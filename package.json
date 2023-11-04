@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "build:watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jushin-g/line-bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jushin-g",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.18.60",
